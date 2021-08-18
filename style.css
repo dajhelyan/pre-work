@@ -1,0 +1,17 @@
+@import "./css/avatar.css";
+@import "./css/button.css";
+@import "./css/font.css";
+@import "./css/banner.css";
+@import"./css/card.css";
+@import "./css/container.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap');
+
+body{
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 16px;
+  margin: 0;
+}
+.text-center{
+  text-align: center;
+}

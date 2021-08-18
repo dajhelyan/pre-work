@@ -1,0 +1,7 @@
+.button-gray {
+  background: -webkit-linear-gradient(#ff0000a1, #3f51b58c);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+}
