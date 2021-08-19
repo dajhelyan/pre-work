@@ -1,17 +1,21 @@
-@import "./css/avatar.css";
-@import "./css/button.css";
-@import "./css/font.css";
-@import "./css/banner.css";
-@import"./css/card.css";
-@import "./css/container.css";
-
+@import "./css/components-index/avatar.css";
+@import "./css/components-index/button.css";
+@import "./css/components-index/font.css";
+@import "./css/components-index/banner.css";
+@import"./css/components-index/card.css";
+@import "./css/components-index/container.css";
+@import url("css/components-index/sidebar.css");
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap');
 
 body{
   font-family: 'Nanum Gothic Coding', monospace;
   font-size: 16px;
   margin: 0;
+  height: 300vh;
 }
 .text-center{
   text-align: center;
+}
+.d-none{
+  display: none;
 }

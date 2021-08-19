@@ -1,0 +1,78 @@
+.sidebar {
+  position: fixed;
+  height: 100%;
+  width: 300px;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.sidebar ul{
+  list-style: none;
+  padding-left: 0px;
+}
+.sidebar li{
+  margin: 15px 0px;
+  padding-left: 40px;
+
+}
+.sidebar a{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+.page-content{
+  margin-left: 300px;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+}
+#ux {
+  height: 300px;
+  background-color: aquamarine;
+  flex-grow: 1;
+}
+#front {
+  height: 300px;
+  background-color: rgb(204, 188, 204);
+  flex-grow: 1;
+}
+#books{
+	background-image: linear-gradient(135deg, rgb(0,0,0,0.8) 0%, rgb(0,0,0,0.2) 80%), url(../../assets//mountains.jpg);
+  background-size: cover;
+  background-position: 80% 30%;
+  height: 300px;
+  width: 100%;
+  background-color: lightpink;
+}
+.fila{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media(max-width:1200px){
+  .sidebar{
+    display: none;
+  }
+  .page-content{
+    margin-left: 0px;
+  }
+  /* #books{
+    
+  } */
+  #ux, #front {
+    min-width: 600px;
+  }
+  .fila{
+    flex-wrap: wrap;
+  }
+}
+@media(max-width: 600px){
+  #ux, #front, #books{
+    min-width: 100%;
+  }
+}
